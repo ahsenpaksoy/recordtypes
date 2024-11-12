@@ -4,7 +4,7 @@ public class Runner {
     public static void main(String[] args) {
 
         Employee employee1 = new Employee("Jack","Sparrow","jack@mail.com");
-        System.out.println(employee1);
+        System.out.println(employee1); //toString() sayesinde degerimi cagirdigimda sonuclar bana yazdirilir
 
         //emaili degistirmek istersek
         employee1.setEmail("jacksparrow@gmail.com");
