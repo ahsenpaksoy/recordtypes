@@ -47,7 +47,7 @@ public class EmployeeImmutable { // bu class i aynen record ile yapalim
 
     @Override
     public boolean equals(Object obj) {
-        if (this==obj) return true; //employee2.equals(employee2)  referans ve degerler ayniysa
+        if (this==obj) return true; //employee2.equals(employee2);  referans ve degerler ayniysa
 
         if (obj==null || this.getClass()!=obj.getClass()) return false;
         //employee2.equals(null)
