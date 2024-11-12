@@ -60,6 +60,7 @@ public class EmployeeImmutable { // bu class i aynen record ile yapalim
                 Objects.equals(this.lastName,emp.lastName) &&
                 Objects.equals(this.email,emp.email);
         //emp2 ile emp3 fieldlari ayni ise true
+        //employee2.equals(employee3)
     }
 
     //bu class tan uretilen objeler icin benzersiz kodlar uretir. object classindaki mevcut hali referensa bakar
