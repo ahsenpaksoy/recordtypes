@@ -27,6 +27,8 @@ public class Runner {
         System.out.println("double equal ile : " + (employee2==employee3)); //false
         System.out.println("equals metodu ile : " + employee2.equals(employee3)); //true
 
+        System.out.println(employee2.hashCode());//object class
+
         //peki boiler plate(basma kalıp) kodları kullanmadan
         //immutable class oluşturamaz mıyız?
 
